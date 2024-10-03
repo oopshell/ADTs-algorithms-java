@@ -10,5 +10,15 @@ public class ListUsage {
         arrayList.add("Banana");
         arrayList.add("Cherry");
         System.out.println("ArrayList Element at index 1: " + arrayList.get(1));
+
+        // Using LinkedList
+        List<String> linkedList = new LinkedList<>();
+        linkedList.add("Dog");
+        linkedList.add("Elephant");
+        linkedList.add("Frog");
+        System.out.println("LinkedList Elements:");
+        for (String animal : linkedList) {
+            System.out.println(animal);
+        }
     }
 }
