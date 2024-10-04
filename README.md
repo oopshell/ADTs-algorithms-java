@@ -39,7 +39,8 @@ public class ListUsage {
 List<String> arrayList = new ArrayList<>();
 List<String> linkedList = new LinkedList<>();
 ```
-- What's the difference between java.util.List and java.util.ArrayList or java.util.LinkedList?
+- What's the difference between `java.util.List` and `java.util.ArrayList` or `java.util.LinkedList`?
+
 	**1. Interface vs Class**
 	- `java.util.List` is an interface that defines a collection that maintains the order of its elements.
 	- Methods defined in `List` are general, like `add()`, `remove()`, `get()`, etc., but it does not provide any implementation of these methods. Common implementations of `List` include `ArrayList`, `LinkedList`, and `Vector`.
@@ -73,6 +74,7 @@ List<String> linkedList = new LinkedList<>();
 		- The `<>` (diamond operator) tells the compiler to infer the type from the context.
 
 - `ArrayList` vs. `LinkedList`
+
 	**1. Data Structure**
 	- `ArrayList`
 		- It is based on a **dynamic array**.
