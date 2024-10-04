@@ -1,8 +1,5 @@
 # Data Structure in Java
 
-# Table of Contents
-1. [1. List](#1. List)
-
 ## 1. List
 A List is an ordered collection that allows duplicate elements. It provides control over where elements are inserted and can access elements by their index.
 
