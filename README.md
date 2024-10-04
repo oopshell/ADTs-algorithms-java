@@ -108,6 +108,7 @@ List<String> linkedList = new LinkedList<>();
 		- Therefore, LinkedList incurs extra memory overhead due to the pointer storage for each node.
 	
 	**When to Use `ArrayList` vs. `LinkedList`**
+	
 		- Use `ArrayList` when:
 			- You need fast random access to elements (frequent use of `get()` or `set()` methods).
 			- Insertion and removal operations are primarily at the end of the list.
