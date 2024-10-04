@@ -71,3 +71,46 @@ List<String> linkedList = new LinkedList<>();
 		- The compiler looks at the left-hand side (`List<String> list`) and sees that `list` is supposed to be of type `String`.
 		- Since the type `String` is already specified in the declaration, the compiler knows that the `ArrayList` should hold `String` elements. Thus, it can infer the type without needing it to be explicitly specified again on the right-hand side.
 		- The `<>` (diamond operator) tells the compiler to infer the type from the context.
+
+- `ArrayList` vs. `LinkedList`
+	**1. Data Structure**
+	- `ArrayList`
+		- It is based on a **dynamic array**.
+		- When you create an `ArrayList`, it allocates a block of contiguous memory to store the elements. If more elements are added than the array can hold, the `ArrayList` automatically resizes itself by creating a new array with a larger capacity and copying the old elements into the new array.
+		- All elements are stored **in order** in **contiguous** memory locations.
+	-`LinkedList`
+		- It is based on a **doubly linked list**.
+		- Each element (or node) contains two parts: the data (the actual element) and references (pointers) to the **next** and **previous** nodes in the list.
+		- Unlike `ArrayList`, a `LinkedList` does **not** require a contiguous block of memory. Each node is scattered in memory but linked through pointers.
+
+	**2. Random Access (or Retrieval)**
+	- `ArrayList`
+		- Fast random access (O(1))
+	-`LinkedList`
+		- Slower random access (O(n))
+	
+	**3. Insertion/Removal**
+	- `ArrayList`
+		- Costly insertions/removals in the middle (O(n))
+		- Fast insertions/removals at the end (O(1))
+	-`LinkedList`
+		- Efficient insertions/removals in the middle (O(1))
+		- Efficient insertions/removals at the beginning/end (O(1))
+	
+	**4. Memory Usage**
+	- `ArrayList`
+		- Since ArrayList is backed by an array, it generally consumes less memory than LinkedList because the only overhead is the array itself. However, when the ArrayList resizes, it creates a new array and copies the data, temporarily using more memory during this process.
+		- The memory usage depends on the capacity of the array. ArrayList may allocate more memory than needed if the capacity is larger than the actual number of elements.
+	-`LinkedList`
+		- A LinkedList uses more memory per element than ArrayList because each node contains two additional references (pointers) to the next and previous nodes, in addition to the actual element.
+		- Therefore, LinkedList incurs extra memory overhead due to the pointer storage for each node.
+	
+	**When to Use `ArrayList` vs. `LinkedList`**
+		- Use `ArrayList` when:
+			- You need fast random access to elements (frequent use of `get()` or `set()` methods).
+			- Insertion and removal operations are primarily at the end of the list.
+			- You need better memory efficiency.
+		- Use `LinkedList` when:
+			- You have frequent insertions or deletions at any position (especially at the beginning or middle of the list).
+			- Random access is not a priority, and traversing the list element by element is acceptable.
+			- You want to avoid the overhead of shifting elements that `ArrayList` has.
