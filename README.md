@@ -34,11 +34,13 @@ public class ListUsage {
 }
 ```
 
+----------------------------------------------------------------
 *Question:*
 ```java
 List<String> arrayList = new ArrayList<>();
 List<String> linkedList = new LinkedList<>();
 ```
+----------------------------------------------------------------
 - What's the difference between `java.util.List` and `java.util.ArrayList` or `java.util.LinkedList`?
 
 	**1. Interface vs Class**
@@ -60,6 +62,7 @@ List<String> linkedList = new LinkedList<>();
 	**3. Performance and Characteristics**
 	- Being an interface, `List` does not define performance characteristics. The behaviour and performance depend on the specific implementation used (e.g., `ArrayList` has fast random access, while `LinkedList` is better for frequent insertions/removals).
 
+----------------------------------------------------------------
 - Why there is no type name inside `<>` after `ArrayList`
 	- Before Java 7 (without the diamond operator), when you declared and instantiated a generic type, you had to specify the type twice, like this:
 		```java
@@ -73,6 +76,7 @@ List<String> linkedList = new LinkedList<>();
 		- Since the type `String` is already specified in the declaration, the compiler knows that the `ArrayList` should hold `String` elements. Thus, it can infer the type without needing it to be explicitly specified again on the right-hand side.
 		- The `<>` (diamond operator) tells the compiler to infer the type from the context.
 
+----------------------------------------------------------------
 - `ArrayList` vs. `LinkedList`
 
 	**1. Data Structure**
