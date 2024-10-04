@@ -121,3 +121,21 @@ List<String> linkedList = new LinkedList<>();
 			- You have frequent insertions or deletions at any position (especially at the beginning or middle of the list).
 			- Random access is not a priority, and traversing the list element by element is acceptable.
 			- You want to avoid the overhead of shifting elements that `ArrayList` has.
+
+
+
+
+## 2. Stack
+A Stack is a last-in-first-out (LIFO) data structure. Java's `Stack` class is legacy and synchronised; it's recommended to use `Deque` implementations instead.
+
+**Implementations:**
+- **ArrayDeque**
+- **LinkedList**
+
+```java
+```
+
+
+
+
+## 3. Queue
