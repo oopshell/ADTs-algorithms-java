@@ -126,16 +126,4 @@ List<String> linkedList = new LinkedList<>();
 
 
 ## 2. Stack
-A Stack is a last-in-first-out (LIFO) data structure. Java's `Stack` class is legacy and synchronised; it's recommended to use `Deque` implementations instead.
 
-**Implementations:**
-- **ArrayDeque**
-- **LinkedList**
-
-```java
-```
-
-
-
-
-## 3. Queue
