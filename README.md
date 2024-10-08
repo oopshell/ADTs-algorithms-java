@@ -150,5 +150,9 @@ public class StackExample {
 
 
 
-
 ## 3. Queue
+A Queue is a first-in-first-out (FIFO) data structure.
+
+
+
+
