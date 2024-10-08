@@ -158,3 +158,19 @@ A Queue is a first-in-first-out (FIFO) data structure.
 - **ArrayDeque**
 - **PriorityQueue** (for priority queues)
 
+```java
+import java.util.Queue;
+import java.util.LinkedList;
+
+public class QueueExample {
+    public static void main(String[] args) {
+        // Using LinkedList as a Queue
+        Queue<String> queue = new LinkedList<>();
+        queue.add("First");
+        queue.add("Second");
+        queue.add("Third");
+        System.out.println("Queue Poll: " + queue.poll()); // Outputs "First"
+    }
+}
+```
+
