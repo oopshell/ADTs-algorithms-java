@@ -180,4 +180,7 @@ public class QueueExample {
 ### 4. Deque
 A Deque (double-ended queue) allows insertion and removal at both ends.
 
+**Implementations:**
+- **ArrayDeque**
+- **LinkedList**
 
