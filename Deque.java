@@ -8,5 +8,6 @@ public class DequeExample {
         deque.addLast("Middle");
         deque.addLast("End");
         System.out.println("Deque Remove First: " + deque.removeFirst());
+        System.out.println("Deque Remove Last: " + deque.removeLast());
     }
 }
