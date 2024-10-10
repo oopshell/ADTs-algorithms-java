@@ -7,5 +7,6 @@ public class DequeExample {
         deque.addFirst("Start");
         deque.addLast("Middle");
         deque.addLast("End");
+        System.out.println("Deque Remove First: " + deque.removeFirst());
     }
 }
