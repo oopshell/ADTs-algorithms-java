@@ -205,3 +205,8 @@ public class DequeExample {
 
 ### 5. Set
 A Set is a collection that cannot contain duplicate elements.
+
+**Implementations:**
+- **HashSet:** Backed by a hash table.
+- **LinkedHashSet:** Maintains insertion order.
+-**TreeSet:** Orders elements using their natural order or a comparator.
