@@ -210,3 +210,9 @@ A Set is a collection that cannot contain duplicate elements.
 - **HashSet:** Backed by a hash table.
 - **LinkedHashSet:** Maintains insertion order.
 -**TreeSet:** Orders elements using their natural order or a comparator.
+
+```java
+import java.util.Set;
+import java.util.HashSet;
+import java.util.TreeSet;
+```
