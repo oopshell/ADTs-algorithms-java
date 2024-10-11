@@ -200,3 +200,8 @@ public class DequeExample {
 }
 ```
 
+
+
+
+### 5. Set
+A Set is a collection that cannot contain duplicate elements.
