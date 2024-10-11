@@ -12,5 +12,8 @@ public class Set {
         hashSet.add(2); // Duplicate, will not be added
         System.out.println("HashSet Elements: " + hashSet);
 
+        // Using TreeSet
+        Set<Integer> treeSet = new TreeSet<>(hashSet);
+        System.out.println("TreeSet Elements: " + treeSet);
     }
 }
