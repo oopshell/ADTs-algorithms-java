@@ -232,3 +232,12 @@ public class SetExample {
     }
 }
 ```
+
+
+
+
+### 6. Map
+A Map is an object that maps keys to values. It cannot contain duplicate keys.
+
+
+
