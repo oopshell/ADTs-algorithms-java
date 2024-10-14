@@ -239,5 +239,9 @@ public class SetExample {
 ### 6. Map
 A Map is an object that maps keys to values. It cannot contain duplicate keys.
 
+**Implementations:**
+- **HashMap:** Hash table-based implementation.
+- **LinkedHashMap:** Maintains insertion order.
+- **TreeMap:** Sorted according to the natural ordering of its keys.
 
 
