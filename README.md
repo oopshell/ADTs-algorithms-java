@@ -258,7 +258,9 @@ public class MapExample {
         hashMap.put("Charlie", 35);
         System.out.println("HashMap Entries: " + hashMap);
 
-
+        // Using TreeMap
+        Map<String, Integer> treeMap = new TreeMap<>(hashMap);
+        System.out.println("TreeMap Entries: " + treeMap);
     }
 }
 
