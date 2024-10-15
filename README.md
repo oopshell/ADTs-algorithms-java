@@ -247,7 +247,6 @@ A Map is an object that maps keys to values. It cannot contain duplicate keys.
 ```java
 import java.util.Map;
 import java.util.HashMap;
-import java.util.TreeMap;
 
 
 ```
