@@ -266,3 +266,7 @@ public class MapExample {
 
 ```
 
+
+### 7. Priority Queue
+
+A Priority Queue is a queue where elements are ordered based on their natural ordering or a provided comparator.
