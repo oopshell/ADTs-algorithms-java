@@ -2,7 +2,7 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.TreeMap;
 
-public class MapExample {
+public class Map {
     public static void main(String[] args) {
         // Using HashMap
         Map<String, Integer> hashMap = new HashMap<>();
