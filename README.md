@@ -136,7 +136,7 @@ A Stack is a last-in-first-out (LIFO) data structure. Java's `Stack` class is le
 import java.util.Deque;
 import java.util.ArrayDeque;
 
-public class StackExample {
+public class Stack {
     public static void main(String[] args) {
         // Using ArrayDeque as a Stack
         Deque<Integer> stack = new ArrayDeque<>();
@@ -162,7 +162,7 @@ A Queue is a first-in-first-out (FIFO) data structure.
 import java.util.Queue;
 import java.util.LinkedList;
 
-public class QueueExample {
+public class Queue {
     public static void main(String[] args) {
         // Using LinkedList as a Queue
         Queue<String> queue = new LinkedList<>();
@@ -188,7 +188,7 @@ A Deque (double-ended queue) allows insertion and removal at both ends.
 import java.util.Deque;
 import java.util.ArrayDeque;
 
-public class DequeExample {
+public class Deque {
     public static void main(String[] args) {
         Deque<String> deque = new ArrayDeque<>();
         deque.addFirst("Start");
@@ -216,7 +216,7 @@ import java.util.Set;
 import java.util.HashSet;
 import java.util.TreeSet;
 
-public class SetExample {
+public class Set {
     public static void main(String[] args) {
         // Using HashSet
         Set<Integer> hashSet = new HashSet<>();
